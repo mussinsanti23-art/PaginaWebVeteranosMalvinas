@@ -1,0 +1,70 @@
+.galeria-museo {
+  padding: 4rem 0;
+}
+.galeria-museo .galeria-item {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(27, 42, 58, 0.1);
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.galeria-museo .galeria-item:hover {
+  box-shadow: 0 8px 20px rgba(27, 42, 58, 0.16);
+  transform: translate(-4px);
+}
+.galeria-museo .galeria-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.galeria-museo .galeria-item:hover img {
+  transform: scale(1.05);
+}
+
+.contenedor-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(100%, 760px);
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 4px solid #333;
+  box-shadow: 0 10px 25px rgba(27, 42, 58, 0.12);
+}
+
+.contenedor-video iframe,
+.contenedor-video video {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+  border-radius: 12px;
+}
+
+.info-visita {
+  background-color: #f4f6f8;
+  padding: 4rem 0;
+}
+.info-visita .info-item {
+  text-align: center;
+}
+.info-visita .info-item .info-icono {
+  font-size: 2rem;
+  color: #c9a227;
+  margin-bottom: 0.5rem;
+}
+.info-visita .info-item h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #1b2a3a;
+}
+.info-visita .info-item p {
+  color: #6c757d;
+  margin-bottom: 0;
+}
